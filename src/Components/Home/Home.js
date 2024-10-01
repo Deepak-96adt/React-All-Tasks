@@ -47,6 +47,11 @@ function Home() {
       <Link className='btn btn-primary mb-3' to="/weather">See-Weather</Link><br/>
     </div>
     <div className='container my-3 p-5 border border-primary'>
+      <h1 className='text-primary'>Welcome to the Show Products App</h1>
+      <br/>
+      <Link className='btn btn-primary mb-3' to="/showproducts">Show Products</Link><br/>
+    </div>
+    <div className='container my-3 p-5 border border-primary'>
       <h1 className='text-primary'>Welcome to the Expenses Tracker</h1>
       <br/>
       <Link className='btn btn-primary mb-3' to="/addExpenses">Add-Expenses</Link><br/>
