@@ -14,25 +14,28 @@ function NavBar() {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+          <Link className="nav-link" aria-current="page" to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/usertable">User-Table</Link>
+          <Link className="nav-link" aria-current="page" to="/usertable">User-Table</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/quiz">Quiz</Link>
+          <Link className="nav-link" aria-current="page" to="/quiz">Quiz</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/quizmcq">Quiz-MCQ</Link>
+          <Link className="nav-link" aria-current="page" to="/quizmcq">Quiz-MCQ</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/addExpenses">Expenses</Link>
+          <Link className="nav-link" aria-current="page" to="/addExpenses">Expenses</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/todo">MyTodo</Link>
+          <Link className="nav-link" aria-current="page" to="/todo">MyTodo</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/weather">Weather</Link>
+          <Link className="nav-link" aria-current="page" to="/weather">Weather</Link>
+        </li>
+        <li className="nav-item">
+          <Link className="nav-link" aria-current="page" to="/showproducts">Show data</Link>
         </li>
       </ul>
       <form className="d-flex">

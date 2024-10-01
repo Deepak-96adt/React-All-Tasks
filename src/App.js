@@ -11,6 +11,7 @@ import Quiz from './Components/Quiz/Quiz';
 import UsersInfo from './Components/UsersInfo/UsersInfo';
 import QuizMCQ from './Components/Quiz/QuizMCQ';
 import PageNotFound from './Components/Other Utility Components/PageNotFound';
+import ShowData from './Components/Products/ShowData';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path='/todo' element={<Todo/>}></Route>
         <Route path='/weather' element={<Weather/>}></Route>
         <Route path='/usertable' element={<UsersInfo/>}></Route>
+        <Route path='/showproducts' element={<ShowData/>}></Route>
       </Routes>
     </>
   );
