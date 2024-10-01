@@ -35,7 +35,7 @@ function NavBar() {
           <Link className="nav-link" aria-current="page" to="/weather">Weather</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" aria-current="page" to="/showproducts">Show data</Link>
+          <Link className="nav-link" aria-current="page" to="/showproducts">Show Products</Link>
         </li>
       </ul>
       <form className="d-flex">
